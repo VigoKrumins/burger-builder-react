@@ -1,5 +1,6 @@
 {
   "name": "burger-builder-react",
+  "description": "This is the basic version of Burger Builder app based on Maximilian Maximilian Schwarzmüller's React - The Complete Guide course on Udemy.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
