@@ -1,9 +1,9 @@
-<p align="center"><img width="250" alt="Burger Builder App (React)" src="https://github.com/VigoKrumins/burger-builder-react/preview/burger-builder.png"></p>
+<p align="center"><img width="250" alt="Burger Builder App (React)" src="https://github.com/VigoKrumins/burger-builder-react/blob/master/preview/burger-builder.png?raw=true"></p>
 
 <h1 align="center">Burger Builder App – React</h1>
 
 <p align="center">
-    <img alt="Licence" src="https://img.shields.io/github/license/vigokrumins/burger-builder-react.svg?style=flat-square">
+    <img alt="Licence" src="https://img.shields.io/github/license/VigoKrumins/burger-builder-react">
 </p>
 
 ## Overview
@@ -40,7 +40,7 @@ If you want to follow the course on your own or learn React, I highly suggest yo
 
 ## License
 
-Copyright © Vigo Krumins. This source code is licensed under the MIT license found in the [LICENSE.md](https://github.com/VigoKrumins/burger-builder-react/LICENSE.md) file.
+Copyright © Vigo Krumins. This source code is licensed under the MIT license found in the [LICENSE](https://github.com/VigoKrumins/burger-builder-react/blob/master/LICENSE) file.
 
 ---
 
