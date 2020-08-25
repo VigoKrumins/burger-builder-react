@@ -1,0 +1,53 @@
+.BuildControls {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.OrderButton {
+    background-color: hsl(35, 100%, 50%);
+    border: 1px solid hsl(35, 100%, 50%);
+    border-radius: 4px;
+    color: hsl(35, 100%, 15%);
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1;
+    margin: 2rem 0;
+    outline: none;
+    padding: 1rem 1.5rem;
+    transition: background-color .25s ease;
+}
+
+.OrderButton:hover,
+.OrderButton:focus {
+    background-color: hsl(35, 100%, 45%);
+}
+
+.OrderButton:disabled {
+    background-color: hsl(35, 10%, 80%);
+    border-color: hsl(35, 10%, 80%);
+    cursor: not-allowed;
+}
+
+.OrderButton:not(:disabled) {
+    animation: orderButtonEnable .3s linear;
+}
+
+@keyframes orderButtonEnable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

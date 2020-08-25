@@ -1,0 +1,173 @@
+.BreadTop {
+    background-color: hsl(35, 100%, 50%);
+    border-top-right-radius: 90px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 10px solid hsl(358, 55%, 22%);
+    box-shadow: inset -15px 0 0 hsl(35, 100%, 45%);
+    flex-shrink: 0;
+    margin: .5rem 0;
+    height: 120px;
+    position: relative;
+    width: 80%;
+}
+
+.Seeds1,
+.Seeds1::before,
+.Seeds1::after,
+.Seeds2,
+.Seeds2::before,
+.Seeds2::after {
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 100%);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 2px 2px 1px hsl(35, 100%, 45%);
+    display: block;
+    flex-shrink: 0;
+    height: 18px;
+    position: absolute;
+    transform-origin: center;
+    width: 6px;
+}
+
+.Seeds1 {
+    left: 25%;
+    top: 40%;
+    transform: rotate(25deg);
+}
+
+.Seeds2 {
+    right: 25%;
+    top: 40%;
+    transform: rotate(-5deg);
+}
+
+.Seeds1::before,
+.Seeds1::after,
+.Seeds2::before,
+.Seeds2::after {
+    content: '';
+}
+
+.Seeds1::before {
+    top: 40px;
+    left: -50px;
+    transform: rotate(-35deg);
+}
+
+.Seeds1::after {
+    top: -40px;
+    left: 60px;
+    transform: rotate(75deg);
+}
+
+.Seeds2::before {
+    top: 20px;
+    right: 60px;
+    transform: rotate(-120deg);
+}
+
+.Seeds2::after {
+    top: 10px;
+    right: -50px;
+    transform: rotate(85deg);
+}
+
+.BreadBottom {
+    background-color: hsl(35, 100%, 50%);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: inset -15px 0 0 hsl(35, 100%, 45%);
+    border: 10px solid hsl(358, 55%, 22%);
+    flex-shrink: 0;
+    margin: .5rem 0;
+    height: 60px;
+    width: 80%;
+}
+
+.Salad {
+    background-color: hsl(101, 47%, 50%);
+    border: 10px solid hsl(358, 55%, 22%);
+    border-radius: 20px;
+    box-shadow: inset -15px 0 0 hsl(101, 47%, 45%);
+    flex-shrink: 0;
+    margin: .5rem 0;
+    height: 40px;
+    width: 83%;
+}
+
+.Cheese {
+    background-color: hsl(50, 100%, 50%);
+    border: 10px solid hsl(358, 55%, 22%);
+    border-radius: 15px;
+    box-shadow: inset -15px 0 0 hsl(50, 100%, 45%);
+    flex-shrink: 0;
+    margin: .25rem 0;
+    height: 30px;
+    width: 85%;
+}
+
+.Bacon {
+    background-color: hsl(15, 100%, 30%);
+    border: 10px solid hsl(358, 55%, 22%);
+    border-radius: 5px;
+    box-shadow: inset -15px 0 0 hsl(15, 100%, 25%);
+    flex-shrink: 0;
+    margin: .5rem 0;
+    height: 30px;
+    width: 81%;
+}
+
+.Tomato,
+.Tomato::before,
+.Tomato::after {
+    background-color: hsl(0, 100%, 40%);
+    border: 10px solid hsl(358, 55%, 22%);
+    box-shadow: inset -15px 0 0 hsl(0, 100%, 35%);
+    border-radius: 20px;
+    flex-shrink: 0;
+    height: 35px;
+    width: 40%;
+}
+
+.Tomato {
+    box-shadow: inset -15px 0 0 hsl(0, 100%, 35%), 5px 5px 3px hsla(0, 0%, 35%, .25);
+    margin: .5rem 0 1.5rem;
+    position: relative;
+}
+
+.Tomato::before,
+.Tomato::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+.Tomato::before {
+    top: 10px;
+    left: -55%;
+    width: 100%;
+}
+
+.Tomato::after {
+    top: 10px;
+    left: 55%;
+    width: 100%;
+}
+
+.Meat {
+    background-color: hsl(25, 50%, 30%);
+    border: 10px solid hsl(358, 55%, 22%);
+    border-radius: 15px;
+    box-shadow: inset -15px 0 0 hsl(25, 65%, 25%);
+    flex-shrink: 0;
+    margin: .5rem 0;
+    height: 50px;
+    width: 80%;
+}

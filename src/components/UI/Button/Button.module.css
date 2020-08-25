@@ -1,0 +1,38 @@
+.Button {
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 85%);
+    border-radius: .25rem;
+    color: hsl(200, 35%, 15%);
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 .5rem 1rem 0;
+    outline: none;
+    padding: 1rem 1.5rem;
+    transition: all .3s ease-out;
+}
+
+.Button:hover,
+.Button:focus {
+    background-color: hsl(0, 0%, 97%);
+}
+
+.Button:disabled {
+    background-color: hsl(0, 0%, 80%);
+    border-color: hsl(0, 0%, 75%);
+    cursor: not-allowed;
+    opacity: .7;
+}
+
+.Button:last-of-type {
+    margin-right: 0;
+}
+
+.Success {
+    color: hsl(120, 40%, 35%);
+}
+
+.Danger {
+    color: hsl(0, 60%, 35%);
+}

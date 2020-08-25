@@ -1,0 +1,22 @@
+.Burger {
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    height: 350px;
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 1.5rem 0;
+    overflow-y: auto;
+    text-align: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .Burger {
+        height: auto;
+        width: 500px;
+    }
+}

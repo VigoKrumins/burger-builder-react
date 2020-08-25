@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img width="250" alt="Burger Builder App (React)" src="https://github.com/VigoKrumins/burger-builder-react/preview/burger-builder.png"></p>
 
-## Available Scripts
+<h1 align="center">Burger Builder App – React</h1>
 
-In the project directory, you can run:
+<p align="center">
+    <img alt="Licence" src="https://img.shields.io/github/license/vigokrumins/burger-builder-react.svg?style=flat-square">
+</p>
 
-### `yarn start`
+## Overview
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is the basic version of Burger Builder app based on Maximilian Schwarzmüller's [React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) course on [Udemy](https://www.udemy.com/).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Installation and Usage
 
-### `yarn test`
+Be sure, you have installed all dependencies before running application.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Running the project
 
-### `yarn build`
+Clone the repository:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`git clone https://github.com/vigokrumins/burger-builder-react.git`
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+`cd burger-builder-react`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install packages:
 
-### `yarn eject`
+`yarn install`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Starting project:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`yarn start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Building project:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`yarn build`
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you want to follow the course on your own or learn React, I highly suggest you to purchase [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) by Maximilian Schwarzmüller on Udemy.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+Copyright © Vigo Krumins. This source code is licensed under the MIT license found in the [LICENSE.md](https://github.com/VigoKrumins/burger-builder-react/LICENSE.md) file.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Made with ♥️ by [Vigo Krumins](https://www.vigokrumins.me/) based on Maximilian Schwarzmüller's [React course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) on Udemy.
